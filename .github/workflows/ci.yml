@@ -29,7 +29,7 @@ jobs:
           mode: fix
           fix_mode: local
           token: ${{ secrets.SP_TOKEN }}
-          project: javatemplate
+          project: 7EABB682929998CA3D0D4CE260ABEF64E281E7BD
           target: pom.xml
 
       - name: mvn install
