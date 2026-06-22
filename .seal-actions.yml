@@ -1,6 +1,6 @@
 meta:
   schema-version: 0.1.0
-  created-on: "2026-06-21T07:31:56Z"
+  created-on: "2026-06-22T11:45:28Z"
   cli-version: 0.2.0
 projects:
   7EABB682929998CA3D0D4CE260ABEF64E281E7BD:
@@ -11,24 +11,24 @@ projects:
       name: maven
       version: ""
     overrides:
-      org.apache.commons:commons-lang3:
-        3.12.0:
-          use: 3.12.0+sp1
-      org.apache.commons:commons-text:
-        "1.9":
-          use: 1.9+sp1
       commons-lang:commons-lang:
         "2.6":
           use: 2.6+sp2
-      org.apache.tomcat.embed:tomcat-embed-core:
-        10.1.40:
-          use: 10.1.40+sp3
-      org.apache.hadoop:hadoop-client-runtime:
-        3.4.1:
-          use: 3.4.1+sp6
+      org.apache.commons:commons-lang3:
+        3.12.0:
+          use: 3.12.0+sp1
       com.fasterxml.jackson.core:jackson-core:
         2.19.2:
           use: 2.19.2+sp1
+      org.apache.hadoop:hadoop-client-runtime:
+        3.4.1:
+          use: 3.4.1+sp6
       org.apache.spark:spark-core_2.11:
         2.3.2:
           use: 2.3.2+sp1
+      org.apache.commons:commons-text:
+        "1.9":
+          use: 1.9+sp1
+      org.apache.tomcat.embed:tomcat-embed-core:
+        10.1.40:
+          use: 10.1.40+sp3
