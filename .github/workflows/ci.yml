@@ -20,6 +20,17 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+      - name: mvn dependency:resolve
+        run: mvn dependency:resolve
+
+      - uses: seal-community/cli-action@v1
+        with:
+          target: pom.xml
+          mode: fix
+          fix_mode: remote
+          token: ${{ secrets.SEAL_TOKEN }}
+          project: java-template-qa
+
       - name: mvn install
         run: mvn install
 
